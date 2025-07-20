@@ -1,0 +1,61 @@
+/* shared style */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px ;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+/* navbar styles */
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul a {
+  text-decoration: none;
+}
+.nav-tittle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.nav-content {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+/* banner styles */
+#banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-tittle {
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 1rem;
+  font-weight: bold;
+}
