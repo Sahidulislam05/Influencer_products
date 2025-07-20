@@ -4,14 +4,13 @@ body {
 }
 
 .btn {
-    background-color: #E02C6D;
-    border: none;
-    border-radius: 41px;
-    padding: 10px 24px ;
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: bold;
-
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 41px;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
 }
 /* navbar styles */
 nav {
@@ -50,7 +49,23 @@ nav ul a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url(./images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
+#banner button {
+  margin-top: 16px;
+}
+.banner-left {
+  width: 50%;
+  margin-bottom: 16px;
+}
+.banner-right img {
+  max-width: 440px;
+  max-height: 414px;
+  margin: 80px auto 100px auto;
+}
+
 .banner-tittle {
   font-size: 3.25rem;
   font-weight: bold;
