@@ -74,3 +74,15 @@ nav ul a {
   font-size: 1rem;
   font-weight: bold;
 }
+/* sponsonr-companies section */
+
+.sponsonr-companies {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 2px solid whitesmoke;
+  background-color: white;
+  padding: 35px 60px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+}
