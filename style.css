@@ -1,6 +1,7 @@
 /* shared style */
 body {
   font-family: "Poppins", sans-serif;
+  /* background-color: #aaaaaa; */
 }
 
 .btn {
@@ -79,10 +80,64 @@ nav ul a {
 .sponsonr-companies {
   max-width: 1100px;
   margin: 0 auto;
-  border-bottom: 2px solid whitesmoke;
-  background-color: white;
+  background-image: linear-gradient(rgba(192, 204, 218, 0.1));
   padding: 35px 60px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
+}
+
+/* collection styles */
+#collection {
+  max-width: 1047px;
+  margin: 0px auto;
+}
+.collection-item {
+  width: 330px;
+  height: 476px;
+  background-color: #ffffff;
+  padding: 15px 15px 27px 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.collection-tittle {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  text-align: center;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-item img {
+}
+
+.collection-item h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.collection-item h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.collection-item p {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #787885;
+  margin-top: 6px;
+  margin-bottom: 0px;
 }
