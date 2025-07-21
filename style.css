@@ -163,3 +163,24 @@ nav ul a {
 .feature-product button {
   border-radius: 0px;
 }
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  header nav ul {
+    visibility: hidden;
+  }
+  .collection-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-left: 20px;
+  }
+  #banner {
+    flex-direction: column-reverse;
+    background-position: top;
+  }
+  #feature {
+    flex-direction: column-reverse;
+  }
+}
