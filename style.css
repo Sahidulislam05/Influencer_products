@@ -141,3 +141,25 @@ nav ul a {
   margin-top: 6px;
   margin-bottom: 0px;
 }
+.collection-arrow {
+  margin-top: 50px;
+  text-align: right;
+}
+.collection-arrow a {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* feature styles */
+#feature {
+  max-width: 1100px;
+  margin: 100px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 95px;
+}
+.feature-product button {
+  border-radius: 0px;
+}
