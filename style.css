@@ -117,7 +117,9 @@ nav ul a {
   align-items: center;
 }
 
-.collection-item img {
+.card-image {
+  display: flex;
+  justify-content: center;
 }
 
 .collection-item h2 {
